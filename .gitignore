@@ -1,0 +1,8 @@
+# General
+.DS_Store
+
+# environment data
+.env
+
+# volume data
+export
