@@ -1,4 +1,5 @@
 # docker contentful
+docker setup for contentful cli. see https://github.com/contentful/contentful-cli for cli documentation. the following commands are just some examples to give you the idea to use contentflul cli in docker
 
 ## set config
 add file .env with
@@ -12,7 +13,7 @@ add file .env with
     docker build -t docker-contentful .
 ```
 
-## list contenttypes
+## list content types
 ```
     docker container run \
         -it \
